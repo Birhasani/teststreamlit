@@ -11,5 +11,4 @@ pandas
 Pillow
 google-genai
 TTS
-os
 gtts
