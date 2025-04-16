@@ -1,0 +1,14 @@
+pip==25.0.1
+bson
+streamlit
+torch
+transformers
+easyocr
+pymongo
+requests
+numpy
+pandas
+Pillow
+google-genai
+TTS
+os
