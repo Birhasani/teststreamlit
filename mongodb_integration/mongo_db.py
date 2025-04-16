@@ -5,9 +5,9 @@ from streamlit import secrets
 from bson import Binary
 
 # MongoDB connection setup
-mongo_client = pymongo.MongoClient(secrets["mongo"]["uri"])  # URI from secrets
-db = mongo_client["braille_db"]  # Database name
-collection = db["user_data"]  # Collection name
+mongo_client = pymongo.MongoClient(secrets["mongo"]["uri"]) 
+db = mongo_client["braille_db"]  
+collection = db["user_data"]  
 
 def save_to_mongo(data):
     """Save the Braille, image, text, and audio data to MongoDB"""
