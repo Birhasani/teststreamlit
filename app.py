@@ -13,7 +13,6 @@ import tempfile
 class TaraDashboard:
     def __init__(self):
         self.api_key = st.secrets["general"]["api_key"]
-        self.google_credentials = st.secrets["general"]["google_application_credentials"]
         self.model_path = "/mount/src/tarabraille/pretrained_model_tts/best_model.pth"
         self.config_path = "/mount/src/tarabraille/pretrained_model_tts/config.json"
         self.output_path = "/mount/src/tarabraille/output.wav"  # Output file untuk suara
