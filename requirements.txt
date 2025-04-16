@@ -1,5 +1,4 @@
 pip==25.0.1
-bson
 streamlit
 torch
 transformers
